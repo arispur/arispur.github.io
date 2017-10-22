@@ -24,5 +24,6 @@ a {
     margin: 10px;
 }
 .table {
-    border: 1px;
+    border: 2px;
+    border-color: white;
 }

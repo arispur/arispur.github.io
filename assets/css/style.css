@@ -236,6 +236,43 @@ h1, h2, h3, h4, h5, h6, figure {
 .gtco-nav ul li.active > a {
   color: #fff !important;
 }
+.gtco-nav.scrolled {
+  background: #fff;
+  webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+}
+.gtco-nav.scrolled ul {
+  padding: 0;
+  margin: 1px 0 0 0;
+}
+.gtco-nav.scrolled ul li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: inline;
+}
+.gtco-nav.scrolled ul li a {
+  color: rgba(0, 0, 0, 0.5);
+}
+.gtco-nav.scrolled ul li a:hover {
+  color: black;
+}
+.gtco-nav.scrolled ul li.active > a {
+  color: #4099e0 !important;
+}
+.gtco-nav.scrolled ul li.btn-cta a {
+  color: #fff;
+}
+.gtco-nav.scrolled ul li.btn-cta a span {
+  border: none !important;
+  background: #4099e0;
+  padding: 4px 20px;
+  color: #fff;
+}
+.gtco-nav.scrolled #gtco-logo em, .gtco-nav.scrolled #gtco-logo a {
+  color: #000;
+}
 
 #gtco-hero .gtco-video-link a {
   color: rgba(255, 255, 255, 0.5);

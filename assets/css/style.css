@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
-  margin: 0 0 30px 0;
+  margin: 0 0 10px 0;
 }
 
 ::-webkit-selection {
@@ -230,7 +230,7 @@ h1, h2, h3, h4, h5, h6, figure {
   border-radius: 30px;
 }
 .gtco-nav ul li.btn-cta a:hover span {
-  background: #8bde2f;
+  background: #4099e0;
   color: #fff;
 }
 .gtco-nav ul li.active > a {
@@ -320,6 +320,58 @@ h1, h2, h3, h4, h5, h6, figure {
     width: 100%;
   }
 }
+
+#gtco-vidio .gtco-video-link a {
+  color: rgba(255, 255, 255, 0.5);
+}
+#gtco-vidio .gtco-video-link a i {
+  font-size: 78px;
+  top: 2px;
+  position: relative;
+  color: #fff;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+#gtco-vidio .gtco-video-link a:hover {
+  color: white;
+}
+#gtco-vidio .gtco-video-link a:hover i {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+@media screen and (max-width: 480px) {
+  #gtco-vidio .text-left {
+    text-align: center !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  #gtco-vidio .btn {
+    display: block;
+    width: 100%;
+  }
+}
+
+
+
+
+
 
 #gtco-header,
 #gtco-counter,
@@ -493,9 +545,12 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #gtco-about,
 #gtco-practice-areas,
-#gtco-our-team,
+#gtco-our-team{
+  padding: 6em 0;
+  clear: both;
+}
 #gtco-contact {
-  padding: 7em 0;
+  padding: 3em 0;
   clear: both;
 }
 
@@ -625,7 +680,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 30px;
 }
 #gtco-contact .form-control {
-  height: 70px;
+  height: 60px;
   font-size: 18px;
   box-shadow: none !important;
   border: 1px solid #cccccc;
@@ -640,7 +695,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .heading {
   text-align: center;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 .heading h1 {
   margin-bottom: 10px;
@@ -652,7 +707,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .heading .sub {
   position: relative;
-  padding-bottom: 40px;
+  padding-bottom: 15px;
   font-size: 18px;
   color: #757575;
 }
@@ -793,7 +848,7 @@ form label {
 .gtco-cover .display-tc h2 {
   font-size: 22px;
   line-height: 1.5;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 #gtco-footer {
@@ -1121,8 +1176,8 @@ form label {
   border: 2px solid #4099e0 !important;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #8bde2f !important;
-  border-color: #8bde2f !important;
+  background: ##00aaf7 !important;
+  border-color: ##00aaf7 !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
@@ -1294,6 +1349,11 @@ form label {
 
 .js .animate-box {
   opacity: 0;
+}
+
+.gallery{
+  padding-left: 5em;
+  padding-right: 5em;
 }
 
 /*# sourceMappingURL=style.css.map */

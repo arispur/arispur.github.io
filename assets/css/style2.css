@@ -1556,7 +1556,6 @@
 	}
 
 	body {
-		-ms-overflow-style: scrollbar;
 	}
 
 	@media screen and (max-width: 480px) {
@@ -1761,10 +1760,6 @@
 	}
 
 	pre {
-		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
-		font-size: 0.9em;
-		margin: 0 0 2em 0;
 	}
 
 		pre code {
@@ -2768,8 +2763,6 @@
 /* Table */
 
 	.table-wrapper {
-		-webkit-overflow-scrolling: touch;
-		overflow-x: auto;
 	}
 
 	table {
@@ -3553,7 +3546,6 @@
 		-webkit-transition: -webkit-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		-ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
-		-webkit-overflow-scrolling: touch;
 		background: rgba(0, 0, 0, 0.925);
 		box-shadow: none;
 		color: #fff;

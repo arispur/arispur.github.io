@@ -29,7 +29,7 @@ function initMap() {
       map: park3
     });
 
-    var uluru_park4 = {lat: -6.900296, lng: 107.618710};
+    var uluru_park4 = {lat: -6.900306, lng: 107.618713};
     var park1 = new google.maps.Map(document.getElementById('park4'), {
       zoom: 16,
       center: uluru_park4
@@ -39,27 +39,7 @@ function initMap() {
       map: park4
     });
 
-    var uluru_park6 = {lat: -6.917205, lng: 107.609291};
-    var park5 = new google.maps.Map(document.getElementById('park5'), {
-      zoom: 16,
-      center: uluru_park6
-    });
-    var marker5 = new google.maps.Marker({
-      position: uluru_park6,
-      map: park5
-    });
-
-    var uluru_park6 = {lat: -6.917205, lng: 107.609291};
-    var park6 = new google.maps.Map(document.getElementById('park6'), {
-      zoom: 16,
-      center: uluru_park6
-    });
-    var marker6 = new google.maps.Marker({
-      position: uluru_park6,
-      map: park6
-    });
-
-    var uluru_education1 = {lat: -6.917205, lng: 107.609291};
+    var uluru_education1 = {lat: -6.900709, lng: 107.621491};
     var education1 = new google.maps.Map(document.getElementById('education1'), {
       zoom: 16,
       center: uluru_education1
@@ -69,7 +49,7 @@ function initMap() {
       map: education1
     });
 
-    var uluru_education2 = {lat: -6.917205, lng: 107.609291};
+    var uluru_education2 = {lat: -6.878239, lng: 107.587535};
     var education2 = new google.maps.Map(document.getElementById('education2'), {
       zoom: 16,
       center: uluru_education2
@@ -79,7 +59,7 @@ function initMap() {
       map: education2
     });
 
-    var uluru_education3 = {lat: -6.917205, lng: 107.609291};
+    var uluru_education3 = {lat: -6.893464, lng:107.618539};
     var education3 = new google.maps.Map(document.getElementById('education3'), {
       zoom: 16,
       center: uluru_education3
@@ -89,7 +69,7 @@ function initMap() {
       map: education3
     });
 
-    var uluru_education4 = {lat: -6.917205, lng: 107.609291};
+    var uluru_education4 = {lat: -6.937763, lng: 107.603461};
     var education4 = new google.maps.Map(document.getElementById('education4'), {
       zoom: 16,
       center: uluru_education4
@@ -99,7 +79,7 @@ function initMap() {
       map: education4
     });
 
-    var uluru_education5 = {lat: -6.917205, lng: 107.609291};
+    var uluru_education5 = {lat: -6.934246, lng: 107.663016};
     var education5 = new google.maps.Map(document.getElementById('education5'), {
       zoom: 16,
       center: uluru_education5
@@ -109,7 +89,7 @@ function initMap() {
       map: education5
     });
 
-    var uluru_education6 = {lat: -6.917205, lng: 107.609291};
+    var uluru_education6 = {lat: -6.851784, lng: 107.595611};
     var education6 = new google.maps.Map(document.getElementById('education6'), {
       zoom: 16,
       center: uluru_education6
@@ -119,7 +99,7 @@ function initMap() {
       map: education6
     });
 
-    var uluru_culture1 = {lat: -6.917205, lng: 107.609291};
+    var uluru_culture1 = {lat: -6.898034, lng: 107.654966};
     var culture1 = new google.maps.Map(document.getElementById('culture1'), {
       zoom: 16,
       center: uluru_culture1
@@ -129,7 +109,7 @@ function initMap() {
       map: culture1
     });
 
-    var uluru_culture2 = {lat: -6.917205, lng: 107.609291};
+    var uluru_culture2 = {lat: -6.917267, lng:107.593209};
     var culture2 = new google.maps.Map(document.getElementById('culture2'), {
       zoom: 16,
       center: uluru_culture2
@@ -139,37 +119,7 @@ function initMap() {
       map: culture2
     });
 
-    var uluru_culture3 = {lat: -6.917205, lng: 107.609291};
-    var culture3 = new google.maps.Map(document.getElementById('culture3'), {
-      zoom: 16,
-      center: uluru_culture3
-    });
-    var marker15 = new google.maps.Marker({
-      position: uluru_culture3,
-      map: culture3
-    });
-
-    var uluru_culture4 = {lat: -6.917205, lng: 107.609291};
-    var culture4 = new google.maps.Map(document.getElementById('culture4'), {
-      zoom: 16,
-      center: uluru_culture4
-    });
-    var marker16 = new google.maps.Marker({
-      position: uluru_culture4,
-      map: culture4
-    });
-
-    var uluru_culture5 = {lat: -6.917205, lng: 107.609291};
-    var culture5 = new google.maps.Map(document.getElementById('culture5'), {
-      zoom: 16,
-      center: uluru_culture5
-    });
-    var marker17 = new google.maps.Marker({
-      position: uluru_culture5,
-      map: culture5
-    });
-
-    var uluru_street1 = {lat: -6.911047, lng: 107.613519};
+    var uluru_street1 = {lat: -6.917881, lng: 107.609452};
     var street1 = new google.maps.Map(document.getElementById('street1'), {
         zoom: 16,
         center: uluru_street1
@@ -179,7 +129,7 @@ function initMap() {
         map: street1
     });
 
-    var uluru_street2 = {lat: -6.911047, lng: 107.613519};
+    var uluru_street2 = {lat: -6.920961, lng: 107.605528};
     var street2 = new google.maps.Map(document.getElementById('street2'), {
         zoom: 16,
         center: uluru_street2
@@ -187,16 +137,6 @@ function initMap() {
         var marker18 = new google.maps.Marker({
         position: uluru_street2,
         map: street2
-    });
-
-    var uluru_street3 = {lat: -6.911047, lng: 107.613519};
-    var street3 = new google.maps.Map(document.getElementById('street3'), {
-        zoom: 16,
-        center: uluru_street3
-    });
-        var marker19 = new google.maps.Marker({
-        position: uluru_street3,
-        map: street3
     });
 
     }

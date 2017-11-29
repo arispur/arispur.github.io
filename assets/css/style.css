@@ -830,6 +830,7 @@ form label {
   font-size: 59px;
   line-height: 1.5;
   font-weight: 100;
+  font-family: sans-serif;
 }
 @media screen and (max-width: 768px) {
   #gtco-header .display-tc h1,
@@ -837,6 +838,7 @@ form label {
     font-size: 34px;
     line-height: 1.2;
     margin-bottom: 10px;
+    font-family: sans-serif;
   }
 }
 #gtco-header .display-tc h2,
@@ -1347,8 +1349,6 @@ form label {
 }
 
 .gallery{
-  padding-left: 4em;
-  padding-right: 4em;
   padding-top: 3.3em;
   padding-bottom: 4em;
 }

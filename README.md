@@ -1,4 +1,5 @@
 # arispur.github.io
 
 Ngurilingan Bandung
-ngurilinganbandung.herokuapp.com
+<a href="https://arispur.github.io" class="hidden-sm">arispur.github.io</a>
+<a href="https://ngurilinganbandung.herokuapp.com" class="hidden-sm">ngurilinganbandung.herokuapp.com</a>

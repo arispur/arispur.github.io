@@ -1,4 +1,4 @@
-@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
+@import url(https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
 .col-item
 {
     border: 1px solid #E1E1E1;
@@ -84,7 +84,7 @@
 }
 .col-item .btn-add
 {
-    width: 33%;
+    width: 31%;
     float: left;
 }
 
@@ -95,7 +95,7 @@
 
 .col-item .btn-details
 {
-    width: 33%;
+    width: 38%;
     float: left;
     padding-left: 10px;
 }
